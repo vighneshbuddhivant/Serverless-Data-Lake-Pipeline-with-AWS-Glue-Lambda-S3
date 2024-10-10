@@ -1,4 +1,4 @@
-# Serverless Data Pipeline with AWS Glue, Lambda, and S3
+# Serverless Data Pipeline with AWS Glue, Lambda, and S3 
 
 ## Project Overview
 This project demonstrates how to build a **serverless data lake** using AWS services such as **S3, Glue, Lambda, SNS**, and **EventBridge (formerly CloudWatch Events)**. The pipeline is designed to transform incoming raw CSV data into Parquet format, which is then stored in an S3 bucket. The process is automated through AWS Glue crawlers and ETL jobs, triggered by S3 events, Lambda functions, and EventBridge rules. Upon successful completion, a notification is sent via SNS.
