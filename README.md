@@ -14,7 +14,7 @@ This project demonstrates how to build a **serverless data lake** using AWS serv
 6. **Completion Notification**: After successful transformation, an SNS notification is sent to inform about the job's success.
 
 ### Architecture Diagram
-![]()
+![](https://github.com/vighneshbuddhivant/Serverless-Data-Lake-Pipeline-with-AWS-Glue-Lambda-S3/blob/02bac742234776f0dd7b9447b3e8fea51d770bb9/glue-lambda-pipeline-arch.png)
 
 ---
 ### Tools and Technologies Used
